@@ -14,9 +14,33 @@ body{
   font-size: 24px;
   margin: 0;
   padding: 20px;
-  display: inline-block;
-  text-decoration: none;
+  display: block; 
   font-weight: bold;
   color: #ffffff;
+  float: left;
 }
  
+.header__nav{
+  clear: left;
+}
+
+.header__nav ul{
+  margin: 0;
+  padding: 0;
+} 
+
+.header__nav li{
+  list-style-type: none;
+  background: #242c2c;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);   
+}
+
+.header__nav a{
+  text-decoration: none; 
+  text-transform: uppercase;
+  color: #586165;
+  font-size: 14px;
+  font-weight: 600;
+}
