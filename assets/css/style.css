@@ -64,13 +64,46 @@ body{
 /*Inicio hero*/
 
 .hero{
-  height: 8vh;
+  height: 80vh;
   padding: 40px 20px;
   text-align: center;
-  background-image: url("../imagens/01.jpg");
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, url("../imagens/01.jpg");
+  background-size: 40px 40px, 40px 40px, cover;
 }
+
+.hero_title{
+  background-color: #63c6ae;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 30px 20px;
+  text-transform: uppercase;
+}
+
+.hero_text{
+  background-color: #242c2c;
+  margin: 5px 30px 35px;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.hero_btn{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  padding: 15px 25px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+ 
 /*Fim hero*/
