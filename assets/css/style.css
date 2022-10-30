@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-
+ /*Inicio menu*/
 .header{
   background: #ffffff;
   width: 100%;
@@ -30,7 +30,7 @@ body{
 } 
 
 .header__nav li{
-  list-style-type: none;
+  list-style: none;
   background: #242c2c;
   padding: 20px 0;
   text-align: center;
@@ -42,5 +42,12 @@ body{
   text-transform: uppercase;
   color: #586165;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 600;  
+  padding: 25px 0; 
+  transition: .8S ease;
 }
+
+.header__nav a:hover{
+  color: #63c6ae;
+}
+/*Fim menu*/
