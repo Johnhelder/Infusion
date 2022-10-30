@@ -3,6 +3,11 @@ body{
   font-family: "Open Sans", sans-serif;
 }
  /*Inicio menu*/
+
+ img{
+  max-width: 100%;
+ }
+
 .header{
   background: #ffffff;
   width: 100%;
@@ -50,4 +55,22 @@ body{
 .header__nav a:hover{
   color: #63c6ae;
 }
+
+.header__btnMenu{
+
+}
 /*Fim menu*/
+
+/*Inicio hero*/
+
+.hero{
+  height: 8vh;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url("../imagens/01.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*Fim hero*/
