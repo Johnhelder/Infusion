@@ -352,4 +352,7 @@ overflow: auto;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+.last_articles_thumbs{
+  grid-template-columns: repeat(6, 1fr);
+}
 }
