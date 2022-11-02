@@ -304,6 +304,10 @@ overflow: auto;
   font-weight: 600;
   text-decoration: none;
 }
+
+.footer-logo{
+  text-transform: uppercase;
+}
 /*Fim footer*/
 
 /*Inicio responsivo*/
@@ -354,5 +358,12 @@ overflow: auto;
 }
 .last_articles_thumbs{
   grid-template-columns: repeat(6, 1fr);
+}
+
+.footer .container{
+  display: flex;
+}
+.footer .container > *{
+  margin: 1.5em;
 }
 }
