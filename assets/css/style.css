@@ -21,6 +21,7 @@ img{
  .js .header{
   position: fixed;
   width: 100%;
+  z-index: 10;
  }
 
 .header{
@@ -103,23 +104,26 @@ font-size: 14px;
 
 .js .laptop_slider{
   overflow: hidden;
+  color: #ffffff;
 }
 
 .js .laptop_slider .slidershow{
   position: relative;
   width: 100%;
   margin: auto;
+  max-width: 950px;
 }
-.js .laptop_slider figure{
-  position: absolute;
+.js .laptop_slider figure{  
   opacity: 0;
   transition: 1s opacity;
-  width: 100%;
+  width: 100%; 
+  position: absolute;
   top: 0;
-  left: 0;
+  left: 0; 
 }
 .js .laptop_slider figure.show{
   opacity: 1;
+  position: static;
 }
 .js .laptop_slider .prev, .js .laptop_slider .next{
   z-index: 3;
