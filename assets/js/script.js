@@ -19,7 +19,14 @@ var carouselImgs = new Carousel({
   container: ".laptop_slider .slidershow",
   itens: "figure",
   btnPrev: ".prev",
-  btnnext: "next"
+  btnNext: ".next"
+})
+
+var carouselQuotes = new Carousel({
+  container: ".quote-slideshow",
+  itens: "figure",
+  btnPrev: ".prev",
+  btnNext: ".next"
 })
 })()
 
