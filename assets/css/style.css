@@ -104,26 +104,27 @@ font-size: 14px;
 
 .js .laptop_slider{
   overflow: hidden;
-  color: #ffffff;
+  color: white;
 }
-
 .js .laptop_slider .slidershow{
   position: relative;
   width: 100%;
   margin: auto;
   max-width: 950px;
 }
-.js .laptop_slider figure{  
+.js .laptop_slider figure{
   opacity: 0;
   transition: 1s opacity;
-  width: 100%; 
+  width: 100%;
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
+  
 }
 .js .laptop_slider figure.show{
   opacity: 1;
   position: static;
+  
 }
 .js .laptop_slider .prev, .js .laptop_slider .next{
   z-index: 3;
@@ -134,7 +135,6 @@ font-size: 14px;
 .js .laptop_slider .prev{
   left: 10px;
 }
-
 .js .laptop_slider .next{
   right: 10px;
 }
