@@ -101,6 +101,40 @@ font-size: 14px;
   background-size: 40px 40px, 40px 40px, cover;
 }
 
+.js .laptop_slider{
+  overflow: hidden;
+}
+
+.js .laptop_slider .slidershow{
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+.js .laptop_slider figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.js .laptop_slider figure.show{
+  opacity: 1;
+}
+.js .laptop_slider .prev, .js .laptop_slider .next{
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.js .laptop_slider .prev{
+  left: 10px;
+}
+
+.js .laptop_slider .next{
+  right: 10px;
+}
+
 .hero_title{
   background-color: #63c6ae;
   color: #ffffff;
