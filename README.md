@@ -10,7 +10,7 @@
 <p>Nesse projeto o objetivo era criar uma landing page para continuar praticando e melhorando os conhecimentos 
 que venho adquirindo em HTML, CSS e JavaScript. Também utilizei responsividade onde é possível acessar a página 
 de qualquer dispositivo, aproveitei para colocar as seguintes funcionalidades, um menu toggle que é habilitado quando
-é acessodo de um aparelho celular. Uma galeria de imagens utilizando carousel e uma seção depoimentos também utilizando
+é acessado de um aparelho celular. Uma galeria de imagens utilizando carousel e uma seção depoimentos também utilizando
 carousel essas funcionalidades foram feitas utilizando algumas funções de JavaScript.</p>
 
 <h1>Aprendizados</h1>
